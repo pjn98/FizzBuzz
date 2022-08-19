@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace FizzBuzz
 {
@@ -29,7 +28,7 @@ namespace FizzBuzz
                 {
                     Console.WriteLine("Fizz");
                 }
-                else if(IsDivisible(element, 5))
+                else if (IsDivisible(element, 5))
                 {
                     Console.WriteLine("Buzz");
                 }
