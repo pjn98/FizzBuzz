@@ -13,6 +13,12 @@ namespace FizzBuzz
             _elementsCount = elementsCount;
         }
 
+        public FizzBuzz()
+        {
+            _startRange = 1;
+            _elementsCount = 100;
+        }
+
         public void DisplayFizzBuzz()
         {
             var elementsList = FizzBuzzHelper.GenerateList(_startRange, _elementsCount);
